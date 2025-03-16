@@ -36,18 +36,24 @@ header {
     margin: -1px;
 }
 
-.chicken .title { background-color: #b5651d; }
-.beef .title { background-color: #a00; }
-.sushi .title { background-color: #cba135; }
+.chicken .title { 
+    background-color: #b5651d;
+}
+.beef .title { 
+    background-color: #a00; 
+}
+.sushi .title { 
+    background-color: #cba135; 
+}
 
-/* Desktop View */
+
 @media (min-width: 992px) {
     .menu-item {
         width: 30%;
     }
 }
 
-/* Tablet View */
+
 @media (min-width: 768px) and (max-width: 991px) {
     .menu-item {
         width: 45%;
@@ -57,7 +63,7 @@ header {
     }
 }
 
-/* Mobile View */
+
 @media (max-width: 767px) {
     .menu-item {
         width: 100%;
